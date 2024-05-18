@@ -14,6 +14,7 @@ import pass from "../assets/images/pass.png";
 export default function Index() {
   return (
     <View style={styles.container}>
+      {/*Upper Section*/}
       <View>
         <Text style={styles.logintxt}>Login</Text>
 
@@ -23,6 +24,7 @@ export default function Index() {
         </Text>
       </View>
 
+      {/*Email Section*/}
       <View>
         <View style={styles.emailstyle}>
           <Image source={email} style={styles.iconformat}></Image>
@@ -33,6 +35,7 @@ export default function Index() {
           ></TextInput>
         </View>
 
+        {/*Password Section*/}
         <View style={styles.passstyle}>
           <Image source={pass} style={styles.iconformat}></Image>
           <TextInput
@@ -44,6 +47,7 @@ export default function Index() {
         </View>
       </View>
 
+      {/*Login Button*/}
       <View
         style={{
           marginTop: 35,
@@ -54,6 +58,7 @@ export default function Index() {
         </TouchableOpacity>
       </View>
 
+      {/*Separator*/}
       <View
         style={{
           flexDirection: "row",
@@ -72,7 +77,8 @@ export default function Index() {
         </Text>
         <View style={styles.line} />
       </View>
-
+      
+      {/*Facebook Button*/}
       <View
         style={{
           marginTop: 21,
@@ -82,7 +88,8 @@ export default function Index() {
           <Text style={styles.buttonText2}>Facebook</Text>
         </TouchableOpacity>
       </View>
-
+      
+      {/*Gmail Button*/}
       <View
         style={{
           marginTop: 14,
@@ -93,6 +100,7 @@ export default function Index() {
         </TouchableOpacity>
       </View>
 
+      {/*Lower text*/}
       <View
         style={{
           flexDirection: "row",
